@@ -1,0 +1,14 @@
+littlebird/node_modules/**/*
+littlebird/npm-debug.*
+littlebird/web-build/
+littlebird/.expo/*
+
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# macOS
+littlebird/.DS_Store
