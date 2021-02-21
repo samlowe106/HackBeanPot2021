@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import React from 'react';
+import React, {useState} from 'react';
 import { StyleSheet, 
   Text, 
   View, 
@@ -20,11 +20,13 @@ import resource_button from './assets/resource_button.png'
 import tree_button from './assets/tree_button.png'
 
 export default function App() {
+  const [currentPage, setCurrentPage] = useState("tree")
   return (
     <View style={styles.container}>
       <SafeAreaView style = {{ flex : 0, backgroundColor: COLORS.grey_lightest }}></SafeAreaView>
+      { currentPage === 'tree' && (
       <SafeAreaView>
-        <Text>Hewwwo!!!</Text>
+        <Text>{currentPage}</Text>
         <StatusBar style="auto"/>
       <TouchableOpacity onPress={() =>  console.log("presse")}>
         <Image source={{
@@ -35,8 +37,10 @@ export default function App() {
         />
       </TouchableOpacity>
       </SafeAreaView>
+)}
+      
     <View style={ styles.rowButtonContainer} >
-      <TouchableHighlight onPress={() =>  console.log("press1")}>
+      <TouchableHighlight onPress={() =>  setCurrentPage("tree")}>
         <View style = {styles.pageLogo}>
          <Image
           style = {styles.pageLogo}
@@ -44,7 +48,7 @@ export default function App() {
           />
         </View>
       </TouchableHighlight>
-      <TouchableHighlight onPress={() =>  console.log("press1")}>
+      <TouchableHighlight onPress={() =>  setCurrentPage("goal")}>
         <View style = {styles.pageLogo}>
          <Image
           style = {styles.pageLogo}
@@ -52,7 +56,7 @@ export default function App() {
           />
         </View>
       </TouchableHighlight>
-      <TouchableHighlight onPress={() =>  console.log("press1")}>
+      <TouchableHighlight onPress={() =>  setCurrentPage("resource")}>
         <View style = {styles.pageLogo}>
          <Image
           style = {styles.pageLogo}
@@ -60,7 +64,7 @@ export default function App() {
           />
         </View>
       </TouchableHighlight>
-      <TouchableHighlight onPress={() =>  console.log("press1")}>
+      <TouchableHighlight onPress={() =>  setCurrentPage("bird")}>
         <View style = {styles.pageLogo}>
          <Image
           style = {styles.pageLogo}

@@ -1,0 +1,322 @@
+/* Header/1 */
+
+.h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 72px;
+  /* identical to box height, or 150% */
+
+  font-feature-settings: "tnum" on, "lnum" on, "zero" on;
+
+  color: #c4c4c4;
+}
+
+.h2 {
+  /* Header/2 */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 48px;
+  /* identical to box height, or 133% */
+
+  font-feature-settings: "tnum" on, "lnum" on, "zero" on;
+
+  color: #c4c4c4;
+}
+
+.h3 {
+  /* Header/3 */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  font-feature-settings: "tnum" on, "lnum" on, "zero" on;
+
+  color: #c4c4c4;
+}
+
+.h4 {
+  /* Header/4 */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+
+  font-feature-settings: "tnum" on, "lnum" on, "zero" on;
+
+  color: #c4c4c4;
+}
+
+.h5 {
+  /* Header/5 */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+
+  text-transform: uppercase;
+  font-feature-settings: "tnum" on, "lnum" on, "zero" on;
+
+  color: #c4c4c4;
+}
+
+.h6 {
+  /* Header/6 */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+
+  font-feature-settings: "tnum" on, "lnum" on, "zero" on;
+
+  color: #c4c4c4;
+}
+
+.b1 {
+  /* Bold/1 */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  font-feature-settings: "tnum" on, "lnum" on, "zero" on;
+
+  color: #c4c4c4;
+}
+
+.b2 {
+  /* Bold/2 */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  text-transform: uppercase;
+  font-feature-settings: "tnum" on, "lnum" on, "zero" on;
+
+  color: #c4c4c4;
+}
+
+.b3 {
+  /* Bold/3 */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  font-feature-settings: "tnum" on, "lnum" on, "zero" on;
+
+  color: #c4c4c4;
+}
+
+.b4 {
+  /* Bold/4 */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  text-transform: uppercase;
+  font-feature-settings: "tnum" on, "lnum" on, "zero" on;
+
+  color: #c4c4c4;
+}
+
+.b5 {
+  /* Bold/5 */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 16px;
+  /* identical to box height, or 145% */
+
+  font-feature-settings: "tnum" on, "lnum" on, "zero" on;
+
+  color: #c4c4c4;
+}
+
+.b6 {
+  /* Bold/6 */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 16px;
+  /* identical to box height, or 145% */
+
+  text-transform: uppercase;
+  font-feature-settings: "tnum" on, "lnum" on, "zero" on;
+
+  color: #c4c4c4;
+}
+
+.d1 {
+  /* Default/1 */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  font-feature-settings: "tnum" on, "lnum" on, "zero" on;
+
+  color: #c4c4c4;
+}
+
+.d2 {
+  /* Default/2 */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  font-feature-settings: "tnum" on, "lnum" on, "zero" on;
+
+  color: #c4c4c4;
+}
+
+.d3 {
+  /* Default/3 */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 16px;
+  /* identical to box height, or 145% */
+
+  font-feature-settings: "tnum" on, "lnum" on, "zero" on;
+
+  color: #c4c4c4;
+}
+
+.i1 {
+  /* Italic/1 */
+
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  text-transform: uppercase;
+  font-feature-settings: "tnum" on, "lnum" on, "zero" on;
+
+  color: #c4c4c4;
+}
+
+.i2 {
+  /* Italic/2 */
+
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  font-feature-settings: "tnum" on, "lnum" on, "zero" on;
+
+  color: #c4c4c4;
+}
+
+.i3 {
+  /* Italic/3 */
+
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 16px;
+  /* identical to box height, or 145% */
+
+  font-feature-settings: "tnum" on, "lnum" on, "zero" on;
+
+  color: #c4c4c4;
+}
+
+.u1 {
+  /* Underline/1 */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  text-decoration-line: underline;
+  font-feature-settings: "tnum" on, "lnum" on, "zero" on;
+
+  color: #c4c4c4;
+}
+
+.u2 {
+  /* Underline/2 */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  text-decoration-line: underline;
+  font-feature-settings: "tnum" on, "lnum" on, "zero" on;
+
+  color: #c4c4c4;
+}
+
+.u3 {
+  /* Underline/3 */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 16px;
+  /* identical to box height, or 145% */
+
+  text-decoration-line: underline;
+  font-feature-settings: "tnum" on, "lnum" on, "zero" on;
+
+  color: #c4c4c4;
+}
