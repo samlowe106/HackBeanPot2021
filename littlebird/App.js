@@ -83,10 +83,10 @@ const styles = StyleSheet.create({
   }, 
   rowButtonContainer: {
     backgroundColor : COLORS.grey_light,
-    padding:25,
+    height:84,
     flexDirection : 'row',
     alignItems : "center",
-    justifyContent : "space-between"
+    justifyContent : "space-around"
   },
   rowButton: {
     flexDirection : 'column'
